@@ -161,7 +161,7 @@ public class Heatmap(double[,] intensities) : IPlottable, IHasColorAxis
     /// After editing contents users must call <see cref="Update"/> before changes
     /// appear on the heatmap.
     /// </summary>
-    public readonly double[,] Intensities = intensities;
+    public double[,] Intensities = intensities;
 
     /// <summary>
     /// Defines what color will be used to fill cells containing NaN.
